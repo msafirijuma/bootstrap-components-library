@@ -1,2 +1,1 @@
-# bootsrap-components-library
- 
+# BOOTSTRAP CHEAT SHEET
