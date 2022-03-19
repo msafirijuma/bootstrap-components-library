@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Cheat Sheet</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Typography -->
     <div class="container m-3">
+        <p class="text-primary lead">Headings</p>
         <h1>Hello World!</h1>
         <h2>Hello World!</h2>
         <h3>Hello World!</h3>
@@ -19,47 +21,142 @@
     </div>
     <hr>
 
-    <div class="container m-3">
-        <h1 class="h2">Hello World!</h1>
-        <h2 class="h1">Hello World!</h2>
-        <h3>Hello World!</h3>
-        <h4>Hello World!</h4>
-        <h5>Hello World!</h5>
-        <h6>Hello World!</h1>
+    <div class="container">
+        <h5 class="text-primary">Paragraph</h5>
+        <p class="lead"><strong>Lorem ipsum</strong> dolor sit amet <del>consectetur</del> adipisicing elit. <i>Reiciendis,</i>
+        officia.</p><br>
+    </div>
+    <div class="container">
+        <h5 class="text-primary">Text Alignment</h5>
+        <p class="text-start">Start</p>
+        <p class="text-center">Center</p>
+        <p class="text-end">End</p>
     </div>
     <hr>
 
-    <p class="lead"><strong>Lorem ipsum</strong> dolor sit amet <del>consectetur</del> adipisicing elit. <i>Reiciendis,</i> officia.</p>
+    <div class="container">
+        <h5 class="text-primary">Keyboard </h5>
+        <kbd>ctrl + p</kbd>
+    </div>
+    <hr>
+    
 
     <!-- Abbreviation -->
     <div class="container">
+        <h5 class="text-primary">Abbreviation</h5>
         <abbr title="World Wide Web" class="initialism">WWW</abbr>
     </div>
     <hr>
 
     <!-- Address -->
-    <address>
-       <h4>Zulfy</h4>
-       <h4>DSM</h4>
-    </address>
+    <div class="container">
+        <h5 class="text-primary">Address</h5>
+        <address>
+            <h4>Zulfy</h4>
+            <h4>DSM</h4>
+        </address>
+    </div>
     <hr>
 
-    <h5>Blockquote</h5>
-    <blockquote>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet neque temporibus aperiam. Deserunt quasi velit ut voluptatem possimus dignissimos inventore excepturi dolores ad omnis minus impedit itaque explicabo animi, vitae veniam nemo fuga repellat. Earum consequuntur cupiditate excepturi recusandae veritatis.
-    </blockquote>
+   <div class="container">
+        <h5 class="text-primary">Blockquote</h5>
+        <blockquote>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet neque temporibus aperiam. Deserunt quasi velit ut
+            voluptatem possimus dignissimos inventore excepturi dolores ad omnis minus impedit itaque explicabo animi, vitae
+            veniam nemo fuga repellat. Earum consequuntur cupiditate excepturi recusandae veritatis.
+        </blockquote>
+   </div>
     <hr>
 
-    <h5>Code &amp; Pre Tags</h5>
-    <code>section</code><br>
-    <code>article</code><br>
-
-    <pre>
-        This is 
-        a pre defined
-        text
-    </pre>
+    <div class="container">
+        <h5 class="text-primary">Code &amp; Pre Tags</h5>
+        <code>section</code><br>
+        <code>article</code><br>
+        
+        <pre>
+                This is 
+                a pre defined
+                text
+            </pre>
+    </div>
     <hr>
+    <div class="container">
+        <h5 class="text-primary">Lists and Tables</h5>
+        <h6>Ordered List</h6>
+        <ul>
+            <li>Item One</li>
+            <li>Item Two</li>
+            <li>Item Three</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h5 class="text-primary">Unstyled </h5>
+        <ul class="list-unstyled">
+            <li>Item One</li>
+            <li>Item Two</li>
+            <li>Item Three</li>
+        </ul>
+    </div>
+        
+    <div class="container">
+        <h5 class="text-primary">Ordered List</h5>
+        <ol class="list-group w-50">
+            <li class="list-group-item active">Item One</li>
+            <li class="list-group-item">Item Two</li>
+            <li class="list-group-item">Item Three</li>
+        </ol>
+    </div>
+    <hr>
+        
+
+    <div class="container">
+        <h5 class="text-primary">Inline List</h5>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item">Item One</li>
+            <li class="list-group-item">Item Two</li>
+            <li class="list-group-item">Item Three</li>
+        </ul>
+    </div>
+    <hr>
+
+    <div class="container">
+        <h5 class="text-primary">Description List</h5>
+        <dl class="dl-horizontal">
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language</dd>
+        
+            <dt>CSS</dt>
+            <dd>cascading Stylesheet</dd>
+        
+            <dt>WWW</dt>
+            <dd>World Wide Web</dd>
+        </dl>
+    </div>
+    <hr>
+
+    <div class="container d-flex justify-content-center align-items-center">
+        <h5 class="text-primary">List with badges</h5>
+        <div class="list-group w-50">
+            <a href="#" class="list-group-item list-group-item-action active text-center">
+             Home
+            </a>
+            <a href="#" class="list-group-item list-group-item-action"
+            >Pictures
+               <span class="badge rounded-pill bg-primary float-end">145</span>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              Music
+                <span class="badge rounded-pill bg-primary float-end">50</span>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              Videos
+                <span class="badge rounded-pill bg-primary float-end">8</span>
+            </a>
+        </div>
+    </div>
+  
+    
 
 
 
