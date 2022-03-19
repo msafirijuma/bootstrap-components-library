@@ -4,3 +4,8 @@
   justify-content: center;
   flex-direction: column;
 }
+
+.badge {
+  font-size: 12px;
+  font-weight: 600;
+}
