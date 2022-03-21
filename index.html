@@ -10,7 +10,7 @@
 </head>
 <body>
     <!-- Typography -->
-    <div class="container m-3">
+    <div class="container m-3" id="page-top">
         <p class="text-primary lead">Headings</p>
         <h1>Hello World!</h1>
         <h2>Hello World!</h2>
@@ -26,6 +26,7 @@
         <p class="lead"><strong>Lorem ipsum</strong> dolor sit amet <del>consectetur</del> adipisicing elit. <i>Reiciendis,</i>
         officia.</p><br>
     </div>
+    <hr>
     <div class="container">
         <h5 class="text-primary">Text Alignment</h5>
         <p class="text-start">Start</p>
@@ -77,21 +78,21 @@
                 This is 
                 a pre defined
                 text
-            </pre>
+        </pre>
     </div>
     <hr>
     <div class="container">
         <h5 class="text-primary">Lists and Tables</h5>
-        <h6>Ordered List</h6>
-        <ul>
+        <h6 class="text-primary">Ordered List</h6>
+        <ol class="list-group">
             <li>Item One</li>
             <li>Item Two</li>
             <li>Item Three</li>
-        </ul>
+        </ol>
     </div>
 
     <div class="container">
-        <h5 class="text-primary">Unstyled </h5>
+        <h5 class="text-primary">Unstyled List</h5>
         <ul class="list-unstyled">
             <li>Item One</li>
             <li>Item Two</li>
@@ -100,12 +101,12 @@
     </div>
         
     <div class="container">
-        <h5 class="text-primary">Ordered List</h5>
-        <ol class="list-group w-50">
-            <li class="list-group-item active">Item One</li>
+        <h5 class="text-primary">Bootstrap List</h5>
+        <ul class="list-group">
+            <li class="list-group-item">Item One</li>
             <li class="list-group-item">Item Two</li>
             <li class="list-group-item">Item Three</li>
-        </ol>
+        </ul>
     </div>
     <hr>
         
@@ -239,16 +240,40 @@
         </table>
     </div>
     <hr>
-  
+
+    <!-- Working with containetrs -->
+    <div class="container">
+        <h5>3 Columns</h5>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 bg-success">
+                <h1>Container One</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque modi quidem doloribus inventore voluptatum delectus distinctio, tempore eius ipsam vitae.</p>
+            </div>
+            <div class="col bg-primary">
+                <h1>Container Two</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque modi quidem doloribus inventore voluptatum delectus
+                    distinctio, tempore eius ipsam vitae.</p>
+            </div>
+            <div class="col bg-info">
+                <h1>Container Three</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque modi quidem doloribus inventore voluptatum delectus
+                    distinctio, tempore eius ipsam vitae.</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+
+    <!-- Top of the page -->
+    <a href="#page-top" class="bg-primary text-light" id="top">&uparrow;</a>
+
+
     
-
-
-
-
     
     
-    
-
+<!-- <del>Bootstrap</del> -->
 <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
