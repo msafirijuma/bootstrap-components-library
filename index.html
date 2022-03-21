@@ -143,15 +143,15 @@
              Home
             </a>
             <a href="#" class="list-group-item list-group-item-action"
-            >Pictures
+            ><span class="float-start">Pictures</span>
                <span class="badge rounded-pill bg-primary text-dark float-end">145</span>
             </a>
             <a href="#" class="list-group-item list-group-item-action">
-              Music
+             <span class="float-start">Music</span> 
                 <span class="badge rounded-pill bg-primary float-end">50</span>
             </a>
             <a href="#" class="list-group-item list-group-item-action">
-              Videos
+             <span class="float-start">Videos</span>
                 <span class="badge rounded-pill bg-primary float-end">8</span>
             </a>
         </div>
@@ -243,24 +243,48 @@
 
     <!-- Working with containetrs -->
     <div class="container">
-        <h5>3 Columns</h5>
+        <h5>3 Equal Columns</h5>
     </div>
-    <div class="container">
+    <div class="container equal-columns">
         <div class="row">
-            <div class="col-lg-12 bg-success">
-                <h1>Container One</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque modi quidem doloribus inventore voluptatum delectus distinctio, tempore eius ipsam vitae.</p>
-            </div>
-            <div class="col bg-primary">
-                <h1>Container Two</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque modi quidem doloribus inventore voluptatum delectus
-                    distinctio, tempore eius ipsam vitae.</p>
-            </div>
-            <div class="col bg-info">
-                <h1>Container Three</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque modi quidem doloribus inventore voluptatum delectus
-                    distinctio, tempore eius ipsam vitae.</p>
-            </div>
+           <div class="col bg-primary text-light p-3 m-1">.col</div>
+           <div class="col bg-dark text-light p-3 m-1">.col</div>
+           <div class="col bg-primary text-light p-3 m-1">.col</div>
+        </div>
+    </div>
+    <hr>
+
+    <div class="container">
+        <h5>Responsive Columns</h5>
+    </div>
+    <div class="container equal-columns">
+        <div class="row">
+           <div class="col-sm-3 bg-primary text-light p-3 m-1">.col</div>
+           <div class="col-sm-3 bg-dark text-light p-3 m-1">.col</div>
+           <div class="col-sm-3 bg-primary text-light p-3 m-1">.col</div>
+        </div>
+    </div>
+    <hr>
+
+    <div class="container">
+        <h5>2 Equal Columns</h5>
+    </div>
+    <div class="container equal-columns">
+        <div class="row">
+           <div class="col bg-primary text-light p-3 m-1">.col</div>
+           <div class="col bg-dark text-light p-3 m-1">.col</div>
+        </div>
+    </div>
+    <hr>
+
+    <div class="container">
+        <h5>2 Unequal Columns</h5>
+        <p class="lead">Test on all devices</p>
+    </div>
+    <div class="container equal-columns">
+        <div class="row">
+           <div class="col-sm-8 bg-primary text-light p-3">.col</div>
+           <div class="col-sm-4 bg-dark text-light p-3">.col</div>
         </div>
     </div>
     <hr>
