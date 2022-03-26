@@ -840,7 +840,7 @@
         <div class="form-">
             <input type="radio" name="radio" id="male" class="form-check-input" checked>
             <label for="male">Male</label><br>
-            <input type="radio" name="radio" id="male" class="form-check-input">
+            <input type="radio" name="radio" id="female" class="form-check-input">
             <label for="female">Female</label>
         </div>
     </form>
@@ -875,22 +875,38 @@
         <hr class="horizontal-rule">
     </div>
 
-    <form action="" class="container">
+    <form action="" class="container" id="floating">
         <div class="form-floating my-2">
             <input type="text" class="form-control" placeholder="Firstname">
-            <label for="name" class="form-label my-1">Enter name</label>
+            <label for="name" class="form-label my-1">username</label>
         </div>
         <div class="form-floating my-2">
-            <input type="password" class="form-control" placeholder="Firstname">
-            <label for="password" class="form-label">Enter password</label>
+            <input type="password" class="form-control" placeholder="password">
+            <label for="password" class="form-label">Password</label>
         </div>
         <div class="form-floating my-2">
             <input type="email" class="form-control" placeholder="Email">
-            <label for="" class="form-label">Enter email</label>
+            <label for="" class="form-label">Email</label>
         </div>
-        <button type="submit" class="btn btn-primary btn-sm my-1">Submit</button>
+        <button type="submit" class="btn btn-primary btn-sm my-1" id="#floating" disabled>Submit</button>
     </form>
     <hr>
+
+
+    <div class="dropdown container">
+        <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+            Dropdown
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#" class="dropdown-item">Link</a></li>
+            <li><a href="#" class="dropdown-item">Link</a></li>
+            <li><a href="#" class="dropdown-item">Link</a></li>
+        </ul>
+    </div>
+
+    
+
+    <br><br><br><br><br>
 
 
 
@@ -906,7 +922,7 @@
     <!-- Top of the page -->
     <a href="#page-top" class="bg-primary text-light" id="top">&uparrow;</a>
 
-<script src="js/bootstrap.min.js"></script>
-<!-- <script src="js/bootstrap.bundle.min.js"></script> -->
+<!-- <script src="js/bootstrap.min.js"></script> -->
+<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
